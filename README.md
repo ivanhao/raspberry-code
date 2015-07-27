@@ -1,20 +1,19 @@
 # raspberry-code
-This codes are records for my raspberry Pi using wiringPi.Including servos,temperature's sensor and so on.
+  This codes are records for my raspberry Pi using wiringPi.Including servos,temperature's sensor and so on.
 
 # first 
 
-you must install wiringPi in your Raspberry Pi.
+  you must install wiringPi in your Raspberry Pi.
 
+  download wiringPi:
 
-#download wiringPi:
+   $git clone git://git.drogon.net/wiringPi
 
-$git clone git://git.drogon.net/wiringPi
+  make and install: 
 
-#make and install: 
+   $cd wiringPi
 
-$cd wiringPi
-
-$./build
+   $./build
 
 
 
@@ -28,10 +27,10 @@ $./build
 
 下载 wiringPi：
 
-$git clone git://git.drogon.net/wiringPi
+  $git clone git://git.drogon.net/wiringPi
 
 安装：
 
-$cd wiringPi
+  $cd wiringPi
 
-$./build
+  $./build
