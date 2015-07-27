@@ -12,6 +12,7 @@ you must install wiringPi in your Raspberry Pi.
 ###make and install: 
 
 `cd wiringPi`
+
 `./build`
 
 
