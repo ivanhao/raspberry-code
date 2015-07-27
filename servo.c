@@ -1,5 +1,7 @@
 #include <wiringPi.h>
 #include <softPwm.h>
+//usage:servo "pinNum" 1   or  servo "pinNum" 2
+//if 1 servo will turn left; else servo will turn right.
 int main(int argc,char*argv[])
 {
   int pin=atoi(argv[1]);
