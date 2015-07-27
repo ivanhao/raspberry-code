@@ -3,7 +3,7 @@
 
 # first 
 
-  you must install wiringPi in your Raspberry Pi.
+<a style="font-size:15px;">you must install wiringPi in your Raspberry Pi.</a>
 
   download wiringPi:
 
