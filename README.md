@@ -6,11 +6,11 @@ This codes are records for my raspberry Pi using wiringPi.Including servos,tempe
 you must install wiringPi in your Raspberry Pi.
 
 
-download wiringPi:
+#download wiringPi:
 
 $git clone git://git.drogon.net/wiringPi
 
-make and install: 
+#make and install: 
 
 $cd wiringPi
 
