@@ -7,17 +7,12 @@ you must install wiringPi in your Raspberry Pi.
 
 ###download wiringPi:
 
-`
-$git clone git://git.drogon.net/wiringPi
-`
+`$git clone git://git.drogon.net/wiringPi`
 
 ###make and install: 
 
-`
-cd wiringPi
-
-./build
-`
+`cd wiringPi`
+`./build`
 
 
 
