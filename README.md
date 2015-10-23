@@ -11,9 +11,11 @@ you must install wiringPi in your Raspberry Pi.
 
 ###make and install: 
 
-`cd wiringPi`
+```
+cd wiringPi
 
-`./build`
+./build
+```
 
 
 
@@ -37,7 +39,7 @@ you must install wiringPi in your Raspberry Pi.
   
 ###使用：
 ```
-`#include <wiringPi.h>`
+#include <wiringPi.h>
 int main( )
 {
     // 初始化wiringPi
@@ -61,7 +63,8 @@ int main( )
 }
 ```
 编译：
-```blink:blink.o
+```
+blink:blink.o
  gcc blink.c -o blink -lwiringPi
 clean:
  rm -f blink blink.o
