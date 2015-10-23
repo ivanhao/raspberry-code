@@ -36,12 +36,12 @@ you must install wiringPi in your Raspberry Pi.
   `./build`
   
 ###使用：
-`#include <wiringPi.h>`
-`int main( )`
-`{`
-  `  // 初始化wiringPi`
-  `  wiringPiSetup();`
-  ```
+```#include <wiringPi.h>
+int main( )
+{
+    // 初始化wiringPi
+    wiringPiSetup();
+
     int i = 0;
     // 设置IO口全部为输出状态
     for( i = 0 ; i < 8 ; i++ )
