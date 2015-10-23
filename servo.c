@@ -21,6 +21,6 @@ int main(int argc,char*argv[])
   for(level=s;level<t;level++)
   {
     softPwmWrite(pin,level);
-    delay(10);
+    delay(12);
   }
 }
