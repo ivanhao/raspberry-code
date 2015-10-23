@@ -7,12 +7,11 @@ you must install wiringPi in your Raspberry Pi.
 
 ###download wiringPi:
 
-```git clone git://git.drogon.net/wiringPi
-```
+`git clone git://git.drogon.net/wiringPi`
 
 ###make and install: 
 
-```cd wiringPi`
+`cd wiringPi`
 
 `./build`
 
@@ -37,7 +36,8 @@ you must install wiringPi in your Raspberry Pi.
   `./build`
   
 ###使用：
-```#include <wiringPi.h>
+```
+`#include <wiringPi.h>`
 int main( )
 {
     // 初始化wiringPi
