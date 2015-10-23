@@ -7,11 +7,12 @@ you must install wiringPi in your Raspberry Pi.
 
 ###download wiringPi:
 
-`git clone git://git.drogon.net/wiringPi`
+```git clone git://git.drogon.net/wiringPi
+```
 
 ###make and install: 
 
-`cd wiringPi`
+```cd wiringPi`
 
 `./build`
 
@@ -41,7 +42,6 @@ int main( )
 {
     // 初始化wiringPi
     wiringPiSetup();
-
     int i = 0;
     // 设置IO口全部为输出状态
     for( i = 0 ; i < 8 ; i++ )
