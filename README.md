@@ -39,7 +39,9 @@ cd wiringPi
   
 ###使用：
 用vi或者nano新建一个blink.c的文件：
+
 `vi blink.c`
+
 内容如下：
 ```
 #include <wiringPi.h>
